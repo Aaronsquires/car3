@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2031A0C02613AB310090EE23 /* car3logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2031A0BF2613AB310090EE23 /* car3logo.png */; };
+		2031A0D426148D010090EE23 /* care3_no_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2031A0D326148D010090EE23 /* care3_no_shadow.png */; };
+		2031A11F2614A0B90090EE23 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031A11D2614A0B90090EE23 /* Utilities.swift */; };
+		2031A1202614A0B90090EE23 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2031A11E2614A0B90090EE23 /* Constants.swift */; };
+		2043A187261A26B7005B9E3A /* irisgrace.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2043A186261A26B7005B9E3A /* irisgrace.jpeg */; };
 		20F702592610BFAB008F4703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F702582610BFAB008F4703 /* AppDelegate.swift */; };
 		20F7025B2610BFAB008F4703 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F7025A2610BFAB008F4703 /* SceneDelegate.swift */; };
 		20F7025D2610BFAB008F4703 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F7025C2610BFAB008F4703 /* ViewController.swift */; };
 		20F702602610BFAB008F4703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F7025E2610BFAB008F4703 /* Main.storyboard */; };
 		20F702622610BFAC008F4703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F702612610BFAC008F4703 /* Assets.xcassets */; };
 		20F702652610BFAC008F4703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F702632610BFAC008F4703 /* LaunchScreen.storyboard */; };
+		20F7027D2610C64D008F4703 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20F7027C2610C64D008F4703 /* GoogleService-Info.plist */; };
+		20F7028F2610F149008F4703 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F7028E2610F149008F4703 /* SignUpViewController.swift */; };
+		20F702932610F155008F4703 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F702922610F155008F4703 /* LoginViewController.swift */; };
+		20F702962610F163008F4703 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F702952610F163008F4703 /* HomeViewController.swift */; };
+		41492F18E1C9A4FBA070A9F4 /* Pods_car3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D3D1B0F95CB72BB10057607 /* Pods_car3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2031A0BF2613AB310090EE23 /* car3logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car3logo.png; sourceTree = "<group>"; };
+		2031A0D326148D010090EE23 /* care3_no_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = care3_no_shadow.png; sourceTree = "<group>"; };
+		2031A11D2614A0B90090EE23 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		2031A11E2614A0B90090EE23 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2043A186261A26B7005B9E3A /* irisgrace.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = irisgrace.jpeg; sourceTree = "<group>"; };
 		20F702552610BFAB008F4703 /* car3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = car3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F702582610BFAB008F4703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20F7025A2610BFAB008F4703 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,13 @@
 		20F702612610BFAC008F4703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20F702642610BFAC008F4703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F702662610BFAC008F4703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F7027C2610C64D008F4703 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		20F7028E2610F149008F4703 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		20F702922610F155008F4703 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20F702952610F163008F4703 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D3D1B0F95CB72BB10057607 /* Pods_car3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_car3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		571E000BAE7C471D9459BAAB /* Pods-car3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-car3.debug.xcconfig"; path = "Target Support Files/Pods-car3/Pods-car3.debug.xcconfig"; sourceTree = "<group>"; };
+		D7CE3A0228A1E01AFE6970CF /* Pods-car3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-car3.release.xcconfig"; path = "Target Support Files/Pods-car3/Pods-car3.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41492F18E1C9A4FBA070A9F4 /* Pods_car3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2031A0BD2613AB0A0090EE23 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2031A0BE2613AB120090EE23 /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2031A0BE2613AB120090EE23 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2043A186261A26B7005B9E3A /* irisgrace.jpeg */,
+				2031A0BF2613AB310090EE23 /* car3logo.png */,
+				2031A0D326148D010090EE23 /* care3_no_shadow.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2031A11C26149FE60090EE23 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				2031A11E2614A0B90090EE23 /* Constants.swift */,
+				2031A11D2614A0B90090EE23 /* Utilities.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
 		20F7024C2610BFAB008F4703 = {
 			isa = PBXGroup;
 			children = (
 				20F702572610BFAB008F4703 /* car3 */,
 				20F702562610BFAB008F4703 /* Products */,
+				D8B54AEB3E99A9ACC62A84EB /* Pods */,
+				690EED354BB5B03C6F34CC62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,46 @@
 		20F702572610BFAB008F4703 /* car3 */ = {
 			isa = PBXGroup;
 			children = (
+				2031A11C26149FE60090EE23 /* Styling */,
+				2031A0BD2613AB0A0090EE23 /* Assets */,
+				20F7028D2610F100008F4703 /* Controllers */,
+				20F7027C2610C64D008F4703 /* GoogleService-Info.plist */,
 				20F702582610BFAB008F4703 /* AppDelegate.swift */,
 				20F7025A2610BFAB008F4703 /* SceneDelegate.swift */,
-				20F7025C2610BFAB008F4703 /* ViewController.swift */,
 				20F7025E2610BFAB008F4703 /* Main.storyboard */,
 				20F702612610BFAC008F4703 /* Assets.xcassets */,
 				20F702632610BFAC008F4703 /* LaunchScreen.storyboard */,
 				20F702662610BFAC008F4703 /* Info.plist */,
 			);
 			path = car3;
+			sourceTree = "<group>";
+		};
+		20F7028D2610F100008F4703 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				20F7025C2610BFAB008F4703 /* ViewController.swift */,
+				20F7028E2610F149008F4703 /* SignUpViewController.swift */,
+				20F702922610F155008F4703 /* LoginViewController.swift */,
+				20F702952610F163008F4703 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		690EED354BB5B03C6F34CC62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D3D1B0F95CB72BB10057607 /* Pods_car3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8B54AEB3E99A9ACC62A84EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				571E000BAE7C471D9459BAAB /* Pods-car3.debug.xcconfig */,
+				D7CE3A0228A1E01AFE6970CF /* Pods-car3.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20F702692610BFAC008F4703 /* Build configuration list for PBXNativeTarget "car3" */;
 			buildPhases = (
+				5CE29E1BBBAA4FDEA79BD571 /* [CP] Check Pods Manifest.lock */,
 				20F702512610BFAB008F4703 /* Sources */,
 				20F702522610BFAB008F4703 /* Frameworks */,
 				20F702532610BFAB008F4703 /* Resources */,
+				6F9336467DAECB8FF9893F85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +209,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2031A0C02613AB310090EE23 /* car3logo.png in Resources */,
 				20F702652610BFAC008F4703 /* LaunchScreen.storyboard in Resources */,
+				20F7027D2610C64D008F4703 /* GoogleService-Info.plist in Resources */,
+				2031A0D426148D010090EE23 /* care3_no_shadow.png in Resources */,
 				20F702622610BFAC008F4703 /* Assets.xcassets in Resources */,
 				20F702602610BFAB008F4703 /* Main.storyboard in Resources */,
+				2043A187261A26B7005B9E3A /* irisgrace.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CE29E1BBBAA4FDEA79BD571 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-car3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F9336467DAECB8FF9893F85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-car3/Pods-car3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-car3/Pods-car3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-car3/Pods-car3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20F702512610BFAB008F4703 /* Sources */ = {
@@ -139,7 +270,12 @@
 			files = (
 				20F7025D2610BFAB008F4703 /* ViewController.swift in Sources */,
 				20F702592610BFAB008F4703 /* AppDelegate.swift in Sources */,
+				2031A11F2614A0B90090EE23 /* Utilities.swift in Sources */,
+				20F7028F2610F149008F4703 /* SignUpViewController.swift in Sources */,
+				20F702932610F155008F4703 /* LoginViewController.swift in Sources */,
 				20F7025B2610BFAB008F4703 /* SceneDelegate.swift in Sources */,
+				20F702962610F163008F4703 /* HomeViewController.swift in Sources */,
+				2031A1202614A0B90090EE23 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +419,7 @@
 		};
 		20F7026A2610BFAC008F4703 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571E000BAE7C471D9459BAAB /* Pods-car3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +439,7 @@
 		};
 		20F7026B2610BFAC008F4703 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CE3A0228A1E01AFE6970CF /* Pods-car3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
